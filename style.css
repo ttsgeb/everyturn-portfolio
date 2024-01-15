@@ -24,8 +24,15 @@ p {
   width: 90%;
 }
 
+p.caption {
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  font-size: small;
+}
+
 ul {
-  list-style-type: square;
+  list-style-type:square;
   padding-left: 10%
 }
 
@@ -60,11 +67,11 @@ div.cell-text {
 div.cell-img {
   width: 30%;
   float: left;
-  background-color: #CCCCCC;
 }
 
 div.cell-img img{
+  background-color: #CCCCCC;
   width: 100%;
   object-fit: contain;
-  border: 2px solid black;
+  border: 2px solid;
 }
