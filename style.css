@@ -25,7 +25,8 @@ p {
 }
 
 ul {
-  list-style-type:square;
+  list-style-type: square;
+  padding-left: 10%
 }
 
 div.container {
@@ -65,5 +66,5 @@ div.cell-img {
 div.cell-img img{
   width: 100%;
   object-fit: contain;
-  border: 1px solid;
+  border: 2px solid black;
 }
